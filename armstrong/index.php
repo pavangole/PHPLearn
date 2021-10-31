@@ -6,7 +6,7 @@
     <title>Armstrong Numbers</title>
 </head>
 <body>
-<pre>
+<pre>1
     <?php
     function get_digit($i) {
         $k = 0;
