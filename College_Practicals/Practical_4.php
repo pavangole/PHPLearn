@@ -8,6 +8,15 @@
 </head>
 
 <body>
+    <style>
+        
+        .bor {
+            text-align: center;
+            border: 2px solid green;
+            border-collapse: collapse;
+            
+        }
+    </style>
     <?php
     echo "<h3>Creted Indexed Array</h3>";
     $arr = array(1, 2, 3, 4, "cat", "dog");
@@ -19,18 +28,18 @@
         "Austrilia" => "Cricket"
     );
     ?>
-    <table>
+    <table class='bor'>
         <thead>
-            <td>Country</td>
-            <td>National Game</td>
+            <td class='bor'>Country</td>
+            <td class='bor'>National Game</td>
         </thead>
         <tbody>
             <?php
             foreach ($ass_array as $key => $value) {
                 echo "
-            <tr class='bor'>
-            <td>$key</td>
-            <td>$value</td>
+            <tr >
+            <td class='bor'>$key</td>
+            <td class ='bor'>$value</td>
             </tr>
             ";
             }
